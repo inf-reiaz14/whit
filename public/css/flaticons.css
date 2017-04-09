@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('/public/font/icomoon.eot?i6eu9f');
+    src:    url('/public/font/icomoon.eot?i6eu9f#iefix') format('embedded-opentype'),
+        url('/public/font/icomoon.ttf?i6eu9f') format('truetype'),
+        url('/public/font/icomoon.woff?i6eu9f') format('woff'),
+        url('/public/font/icomoon.svg?i6eu9f#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-japan:before {
+    content: "\e900";
+}
+.icon-australia:before {
+    content: "\e901";
+}
+.icon-backoffice:before {
+    content: "\e902";
+}
+.icon-bangladesh:before {
+    content: "\e903";
+}
+.icon-canada:before {
+    content: "\e904";
+}
+.icon-catagory:before {
+    content: "\e905";
+}
+.icon-cell:before {
+    content: "\e906";
+}
+.icon-coderfactory:before {
+    content: "\e907";
+}
+.icon-costEffective:before {
+    content: "\e908";
+}
+.icon-crossIcon:before {
+    content: "\e909";
+}
+.icon-CustomLayout:before {
+    content: "\e90a";
+}
+.icon-details:before {
+    content: "\e90b";
+}
+.icon-digitalMarket:before {
+    content: "\e90c";
+}
+.icon-functional:before {
+    content: "\e90d";
+}
+.icon-germany:before {
+    content: "\e90e";
+}
+.icon-graphicshop:before {
+    content: "\e90f";
+}
+.icon-hawkshead:before {
+    content: "\e910";
+}
+.icon-HawksIcon:before {
+    content: "\e911";
+}
+.icon-hongkong:before {
+    content: "\e912";
+}
+.icon-language:before {
+    content: "\e913";
+}
+.icon-location:before {
+    content: "\e914";
+}
+.icon-mail:before {
+    content: "\e915";
+}
+.icon-massageus:before {
+    content: "\e916";
+}
+.icon-oop:before {
+    content: "\e917";
+}
+.icon-postCV:before {
+    content: "\e918";
+}
+.icon-procedural:before {
+    content: "\e919";
+}
+.icon-skill:before {
+    content: "\e91a";
+}
+.icon-technicalSupport:before {
+    content: "\e91b";
+}
+.icon-testimonialicon:before {
+    content: "\e91c";
+}
+.icon-USA:before {
+    content: "\e91d";
+}
+.icon-entertainment:before {
+    content: "\e91e";
+}
+.icon-data_mining:before {
+    content: "\e91f";
+}
+.icon-it:before {
+    content: "\e920";
+}
+.icon-education:before {
+    content: "\e921";
+}
+.icon-finance:before {
+    content: "\e922";
+}
+.icon-health:before {
+    content: "\e923";
+}
+.icon-sales-and-marketing:before {
+    content: "\e924";
+}
+

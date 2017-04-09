@@ -1,0 +1,1323 @@
+
+/*=======================================================================
+
+APPLICATION THEME STYLES
+
+=======================================================================*/
+
+html  body {
+	font-family: 'Tinos', serif !important;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,a.btn-read-more.btn{
+	font-family: 'Tinos', serif !important;
+	font-weight: 700;
+}
+
+.blue-bg{
+	background-color: #0d7cbb !important;
+}
+
+.blue-text{
+	color: #0d7cbb !important;
+}
+
+.blue-border{
+    border: 2px solid #0d7cbb;
+}
+
+.white-bg{
+	background-color: #ffffff !important;
+}
+
+div.white-bg{
+	background-color: #ffffff !important;
+}
+
+div.transparent-bg{
+	background-color: transparent !important;
+}
+
+.green-text{
+	color: #137474 !important;
+}
+
+.green-bg{
+	background-color: #137474 !important;
+}
+
+.green-border{
+	border: 2px solid #055a5a;
+}
+
+.white-text{
+	color: #ffffff !important;
+}
+
+.light-Grey-text{
+	color: #939393  !important;
+}
+
+.light-grey-bg{
+	background-color: #939393  !important;
+}
+
+.dark-Grey-text{
+	color: #413e3b  !important;
+}
+
+.dark-Grey-bg{
+	background-color: #413e3b  !important;
+}
+
+.orange-Grey-text{
+	color: #f15b2d  !important;
+}
+
+.dark-blue-bg{
+	background-color: #011927  !important;
+}
+
+.transparent-bg{
+	background-color: transparent  !important;
+	background-image: none  !important;
+}
+
+.skills{
+	font-weight: 700;
+}
+
+.big-heading {
+    font-size: 48px;
+    padding: 10px 0;
+}
+
+.contact-form-holder input,  .contact-form-holder textarea,  .contact-form-holder button {
+    margin: 3% 0;
+}
+
+/*=======================================================================
+
+END THEME DEFINITION
+
+=======================================================================*/
+
+
+
+
+
+
+
+/*=======================================================================
+
+HEADER
+
+=======================================================================*/
+
+.main-menu>li.active>a {
+    border-top-color: #0d7cbb;
+    color: #0d7cbb;
+}
+
+.header {
+    z-index: 1;
+    padding: 0 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header > .row > div {
+    z-index: 1;
+}
+
+.main-menu>li>a{
+    color: #939393;
+}
+
+/*.header {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 1;*/
+/*    width: 100%;*/
+/*    padding: 0 5%;*/
+/*}*/
+
+.hometop-banner{
+	height: 100%;
+	background-size: cover;
+	/*margin-top: -118px;*/
+}
+
+.main-menu.main-menu2>li {
+    right: 0px;
+}
+
+.custom_04 > .pix_row, .custom_04 > .pix_row > .col-lg-9{
+	background-color: transparent;
+}
+
+.custom_04 > .pix_row {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.custom_04 .pix_row .main-menu > li > a {
+    color: #fff;
+    padding: 25px 10px 26px 10px;
+}
+
+/*=======================================================================
+
+END HEADER
+
+=======================================================================*/
+
+
+
+/*=======================================================================
+
+HOME : SUCCESSFUL STORIES
+
+=======================================================================*/
+
+.success-ground {
+    transform: translate(0, -40px);
+    padding-top: 20px !important;
+}
+
+.success-ground, .success-ground div[class*='col'], .success-ground .pix-item {
+    background-color: transparent !important;
+}
+
+
+.successful-stories {
+    padding: 0;
+    height: 250px;
+    margin-top: 20px;
+}
+
+
+.successful-stories > div.col-xs-12 {
+    background-color: #fff !important;
+    height: 100%;
+}
+
+.successful-stories h2 {
+    width: 300px;
+    margin: 0;
+    font-weight: 500;
+    transform: translate(-12px,-22px);
+    font-size: 36px;
+}
+
+.successful-stories .col-xs-7 {
+    text-align: left;
+    padding-left: 10px !important;
+}
+
+.skills {
+    margin-top: 7px;
+    padding-left: 20px;
+}
+
+.portfolio-link {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0px;
+    left: -25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #ffffff;
+    padding: 3px 9px;
+    z-index: 79;
+}
+
+.portfolio-link img{
+	max-height: 45px;
+	max-width: 45px;
+}
+
+.heroes {
+    overflow: hidden;
+}
+
+.successful-stories small, .successful-stories q {
+    font-weight: 700;
+}
+
+/*=======================================================================
+
+END SUCCESSFUL STORIES
+
+=======================================================================*/
+
+
+
+/*=======================================================================
+
+HOMEPAGE : JOB CIRCULARS
+
+=======================================================================*/
+
+div.homepage-job-circulars.col-xs-12 .pix-item-owl {
+    background-color: #f15b2d !important;
+    margin-top: 5%;
+    color: #fff;
+    padding: 0 5% 30px 5%;
+    text-align: left;
+}
+
+div.homepage-job-circulars.col-xs-12 .pix-item-owl h2{
+	padding-top: 20px;
+}
+
+.homepage-job-circulars p {
+    margin: 0 0 7px;
+}
+
+.homepage-job-circulars .y1 {
+    height: 235px;
+}
+
+.homepage-job-links li {
+    display: inline;
+    text-align: center;
+}
+
+.homepage-job-links a {
+    background-color: #f15b2d;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 11px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    -webkit-box-shadow: -3px -3px 16px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: -3px -3px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: -3px -3px 16px 0px rgba(0,0,0,0.2);
+	margin: 5px;
+	display: block;
+	line-height: 1.4;
+}
+
+.homepage-job-links li:first-child a {
+    padding: 13px;
+    height: 56px;
+    width: 56px;
+    margin-top: 0px;
+}
+
+/*=======================================================================
+
+END JOB CIRCULARS
+
+=======================================================================*/
+
+
+/*=======================================================================
+
+HOMEPAGE : TEAMSOURCING
+
+=======================================================================*/
+
+.homepage-teamsourcing {
+    background-color: transparent !important;
+    padding: 3% !important;
+}
+
+.teamsourcing-slides .y1 {
+    height: 200px;
+}
+
+.teamsourcing-slides .pix-item-owl{
+	padding: 1% 0;
+}
+
+.teamsourcing-logo {
+    padding: 5% 0;
+    max-width: 300px;
+}
+
+.teamsourcing-slides h2 {
+    font-weight: 100;
+    font-size: 44px;
+    text-align: center;
+}
+
+.teamsourcing-slides h4 {
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.hamburger2 {
+    position: absolute;
+    top: 43px;
+    z-index: 1001;
+    display: block;
+    float: left;
+    left: 100%;
+    margin-left: -75px;
+    width: 28px;
+    height: 24px;
+    margin-right: 15px;
+    background: transparent;
+    border: none;
+    transition: all 300ms;
+}
+
+.lang-list {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin-left: -20px !important;
+}
+
+.lang-item a:hover{
+    color: #fff;
+}
+
+.hamburger2:hover .lang-list{
+    opacity: 1;
+}
+
+.homepage-teamsourcing .icon-massageus {
+    font-size: 62px;
+}
+
+.hamepage-banner-menu2 {
+    display: inline-flex;
+    height: 80px;
+}
+
+.hamepage-banner-menu2 a {
+    color: #fff;
+    font-size: 24px;
+    padding: 26px 12px;
+    display: block;
+}
+
+.slide-menu2 {
+    background-color: rgba(13, 124, 187, 0.9);
+    float: right;
+    text-align: right;
+    padding: 0 0px 0 0;
+    position: relative;
+}
+
+.progress-bar-1 {
+    margin-left: 38%;
+    width: 25%;
+    padding: 1px;
+    margin-top: 10%;
+    position: relative;
+}
+
+.bar{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 90%;
+	background-color: #0d7cbb;
+}
+
+.intern-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 43px;
+    background-color: rgba(1,1,1, 0.5);
+}
+
+.intern-list .team-wrap{
+	width: 100%;
+	padding: 0;
+}
+
+.intern-list .team-box{
+	padding: 0;
+}
+
+.intern-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255, 0.6);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 6px;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.team-box:hover .intern-link {
+	opacity: 1;
+}
+
+.intern-contact {
+    background-image: url('/public/img/settings/iconic.jpg') !important;
+    background-color: transparent !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.intern-contact h2 {
+    font-weight: 100;
+    font-size: 90px;
+    padding-top: 17px;
+    margin-bottom: 0px;
+}
+
+.intern-contact h6 {
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+.intern-contact .y1 {
+    height: 293px;
+}
+
+/*=======================================================================
+
+END TEAMSOURCING
+
+=======================================================================*/
+
+
+
+
+/*=======================================================================
+
+HOMEPAGE : APPLICATION
+
+=======================================================================*/
+
+.homepage-applications .brand-wrap {
+    text-align: center;
+    padding: 5%;
+}
+
+.homepage-applications .team-box img{
+	transition: transform 0.5s ease;
+	transform: scale(1);
+}
+
+.homepage-applications .team-box:hover img{
+	transform: scale(1.1);
+}
+
+.homepage-applications .brand-box {
+    margin: 15px;
+    width: 190px;
+}
+
+/*=======================================================================
+
+END APPLICATION
+
+=======================================================================*/
+
+
+
+
+/*=======================================================================
+
+HOMEPAGE : GLOBAL MARKET
+
+=======================================================================*/
+
+.homepage-applications {
+    margin-bottom: 10%;
+}
+
+.global-market {
+    border: 2px solid #413e3b;
+    padding: 2% 7% !important;
+    margin-left: 8.33333333% !important;
+    margin-top: 5% !important;
+}
+
+.global-market-items {
+    border: 1px solid #413e3b;
+    margin: 6%;
+    text-align: center;
+    position: relative;
+    margin-top: 25%;
+}
+
+.global-market-items:hover{
+	border: 1px solid #0d7cbb;
+}
+
+.global-market > center {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -43px;
+}
+
+.global-market > center > span {
+    background-color: #011927;
+    padding: 7px;
+}
+
+.global-market-items > i:before {
+    font-size: 72px;
+    position: absolute;
+    top: -55px;
+    left: 35%;
+    background-color: #011927;
+    border-radius: 0;
+    height: 80px;
+    width: 75px;
+}
+
+.global-market-items:hover i:before{
+	background-color: #fff;
+	font-size: 60px;
+    height: 100px;
+    width: 100px;
+    padding: 7.5%;
+    border-radius: 50%;
+    left: 30%;
+}
+
+.global-market-items h3 {
+    padding: 22% 0;
+}
+
+
+/*=======================================================================
+
+END GLOBAL MARKET
+
+=======================================================================*/
+
+
+
+
+
+/*=======================================================================
+
+HOMEPAGE : TEAMSOURCING SERVICES
+
+=======================================================================*/
+
+
+.teamsourcing-services-list{
+	padding: 4% !important;
+}
+
+.teamsourcing-services{
+	background-image: url('/public/img/settings/sector.jpg') !important;
+	background-color: transparent !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+	padding-top: 4%;
+}
+
+.teamsourcing-services-item.light .background{
+	background-color: rgba(216,214,214, 0.25);
+}
+
+.teamsourcing-services-item.deep .background{
+	background-color: rgba(4,28,42, 0.25);
+}
+
+.teamsourcing-services-item .background{
+	padding: 18%;
+}
+
+.teamsourcing-services-item .foreground{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	transition: opacity 0.5s linear;
+	opacity: 0;
+	padding: 9%;
+	padding-top: 15%;
+	background-color: rgba(4, 28, 42, 1);
+}
+
+.teamsourcing-services-item:hover .foreground{
+	opacity: 1;
+}
+
+.teamsourcing-services-item .background i:before {
+    font-size: 78px;
+    margin-left: 0 !important;
+}
+
+.teamsourcing-services-item .foreground i:before {
+    color: #0d7cbb;
+    margin-left: 0 !important;
+    font-size: 38px;
+    background-color: rgba(4, 28, 42, 1);
+    padding: 3px;
+}
+
+.foreground .holder {
+    border: 1px solid #0d7cbb;
+    max-height: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.foreground .holder center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 111%;
+    overflow: hidden;
+    margin-top: -19%;
+    padding: 2%;
+}
+
+.foreground .holder h3 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-weight: 100;
+}
+
+
+/*=======================================================================
+
+END TEAMSOURCING SERVICES
+
+=======================================================================*/
+
+
+
+/*=======================================================================
+
+HOMEPAGE : IT SKILLSET
+
+=======================================================================*/
+
+.it-skills {
+    background-color: #ebebeb !important;
+    padding: 2%;
+}
+
+.skill-group-item-list li{
+	display: inline-block;
+	width: 120px !important;
+}
+
+.skill-group li a i {
+    line-height: 1.65;
+}
+
+.nav-tabs.nav.skill-group-item-list a {
+    background-color: rgba(19, 116, 116, 0.3);
+    padding: 10px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 5px;
+    border: 2px solid #055a5a;
+    font-size: 10px;
+    opacity: 0.4;
+    transition: opacity 0.5s ease;
+}
+
+.nav-tabs.nav.skill-group-item-list a:hover{
+	height: 110px;
+    width: 110px;
+    background-color: rgba(19, 116, 116, 1) !important;
+    color: #ffffff;
+    border: 2px solid #055a5a;
+    opacity: 1;
+}
+
+.nav-tabs.nav.skill-group-item-list .active a {
+    height: 110px;
+    width: 110px;
+    background-color: rgba(19, 116, 116, 1) !important;
+    color: #ffffff;
+    border: 2px solid #055a5a;
+    opacity: 1;
+    transform: translate(0,-12px);
+}
+
+.nav-tabs.nav.skill-group-item-list a .text{
+	display: none;
+}
+
+.nav-tabs.nav.skill-group-item-list a:hover .text{
+	display: block;
+}
+
+.nav-tabs.nav.skill-group-item-list .active a .text{
+	display: block;
+}
+
+.skill-group-item-list a i:before{
+	margin-left: 0;
+	font-size: 42px;
+	line-height: 1.5;
+}
+
+.skill-group li a i:before {
+    margin: 0px;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 48px;
+    height: 80px;
+    width: 80px;
+    display: block;
+    padding: 2%;
+    color: #ffffff;
+}
+
+.coders-factory:before{
+	background-color: #137474 !important;
+}
+
+.graphic-shop:before{
+	background-color: #f29829 !important;
+}
+
+.digital-market:before{
+	background-color: #59bebf !important;
+}
+
+.back-office:before{
+	background-color: #ea7f24 !important;
+}
+
+.skill-group li a {
+    display: inline-flex;
+    border: 0px transparent !important;
+}
+
+.skill-group li a .text {
+    line-height: 3.5;
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 7px;
+}
+
+.it-skill-p {
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+}
+
+.language-group {
+    margin: 1% 0 !important;
+}
+
+.language-list li a {
+    padding: 15px 20px;
+    font-size: 22px;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.language-list .owl-item a span:hover{
+	cursor: pointer;
+}
+
+.language-list .owl-item {
+    display: inline-flex;
+    float: none;
+    clear: right;
+}
+
+.framework-list li a{
+	color: #055a5a;
+}
+
+.framework-list {
+    float: left;
+    height: auto;
+    width: 100%;
+    text-align: left;
+    padding: 2% 6% !important;
+}
+
+.framework-list li {
+    display: inline-table;
+    list-style: circle outside none;
+}
+
+.framework-list li a {
+    color: #055a5a;
+    width: 200px;
+    text-align: left;
+    display: list-item;
+    list-style: disc outside none;
+}
+
+.language-heading {
+    border-bottom: 2px solid #055a5a;
+    padding: 0px 7px 7px;
+    width: 50%;
+}
+
+@media (min-width: 992px){
+	.col-md-offset-1 {
+	    margin-left: 8.33333333% !important;
+	}
+}
+
+/*=======================================================================
+
+END IT SKILLSET
+
+=======================================================================*/
+
+
+
+
+/*=======================================================================
+
+HOMEPAGE : TESTIMONIAL
+
+=======================================================================*/
+
+
+.testimonial{
+    background-image: url('/public/img/settings/testimonial.jpg');
+    padding-bottom: 8%;
+    padding-top: 1%;
+}
+
+.testimonial-item {
+    width: 50%;
+    min-width: 200px;
+    float: none;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    height: 100%;
+    display: inline-block;
+}
+
+.testimonial-item h3 {
+    margin-bottom: 0;
+    margin-top: 26%;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.testimonial-img {
+    max-height: 150px;
+    margin-top: -75px;
+    margin-left: 5%;
+    background-color: #132834;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.testimonial-quote {
+    margin: 30px 3px 46px;
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    text-align: left;
+    padding: 0 10%;
+}
+
+.testimonial .designation {
+    margin-right: 8px;
+}
+
+.testimonial .owl-pagination .owl-page span {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.testimonial .owl-pagination .owl-page.active span, 
+.testimonial .owl-pagination .owl-page.active:hover span,
+.testimonial .owl-pagination .owl-page span:hover,
+.testimonial .owl-pagination:hover .owl-page span{
+    background-color: #0d7cbb !important;
+}
+
+.testimonial-quote:before {
+    content: open-quote;
+    font-size: 32px;
+    line-height: 1;
+    display: inline-block;
+    margin-left: -17px;
+    transform: translate(0,20%);
+    margin-right: 5px;
+}
+
+.testimonial-quote:after {
+    content: close-quote;
+    font-size: 32px;
+    margin-left: 3px;
+    position: absolute;
+    bottom: -14px;
+}
+
+
+/*=======================================================================
+
+END TESTIMONIAL
+
+=======================================================================*/
+
+
+/*=======================================================================
+
+HOMEPAGE : WORK TOGETHER
+
+=======================================================================*/
+
+
+.work-item {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.work-item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(10, 33, 46, 0.95);
+    padding: 25% 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.work-item:hover .cover{
+    opacity: 1;
+}
+
+.work-item .cover img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.work-item .cover .name {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.work-item .cover .designation {
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.work-together .work-item-mid {
+    padding: 2%;
+}
+
+.work-item-mid h2 {
+    font-size: 51px;
+    font-weight: 100;
+    line-height: 1.3;
+    margin: 5% 0;
+}
+
+.work-item-mid a {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.work-together .modal{
+    background-color: rgba(10, 33, 46, 0.95);
+}
+
+.work-together .modal-content {
+    box-shadow: 0 0 0 transparent;
+    border: 0px transparent;
+}
+
+.work-together .modal-header{
+    padding-left: 0;
+}
+
+.work-together .modal-header h4{
+    font-weight: 100;
+}
+
+.work-together .modal-footer {
+    padding-right: 0;
+}
+
+.work-together .modal-footer button {
+    width: 150px;
+}
+
+.adviser-name h2,.adviser-name h3 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.adviser-name h2 {
+    font-size: 36px;
+}
+
+.adviser-name h3 {
+    font-size: 26px;
+}
+
+.work-together modal-dialog{
+    padding-top: 0.5%;
+}
+
+/*=======================================================================
+
+END WORK TOGETHER
+
+=======================================================================*/
+
+
+/*=======================================================================
+
+HOMEPAGE : CONTACT
+
+=======================================================================*/
+
+.contact-list-holder {
+    position: absolute;
+    display: block;
+    padding: 6%;
+    bottom: 0;
+}
+
+
+.contact-list {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.country-bg {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.country i:before {
+    margin: 0;
+    font-size: 100px;
+}
+
+.country a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.country:hover{
+    cursor: pointer;
+}
+
+.contact-list .owl-prev:before {
+    content: "\f104";
+}
+
+.contact-list .owl-next:before {
+    content: "\f105";
+}
+
+.contact-list .owl-next {
+    position: absolute;
+    top: 38%;
+    right: 3%;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 48px !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    background-color: transparent !important;
+}
+
+.contact-list .owl-prev {
+    position: absolute;
+    top: 38%;
+    left: 3%;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 48px !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    background-color: transparent !important;
+}
+
+
+.contact-item {
+    position: relative;
+    min-height: 650px;
+}
+
+.contact-item center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(1,1,1,0.8);
+    padding-top: 2%;
+}
+
+.contact-item center > i:before {
+    margin: 0;
+    font-size: 62px;
+}
+
+.contact-item center h2 {
+    font-weight: 100;
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.contact-item .email i:before, .contact-item .phone i:before{
+    font-size: 24px;
+}
+
+.contact-item .contact-links a {
+    width: 170px;
+}
+
+.contact-form-holder{
+    margin-top: 7%;
+}
+
+.contact-form-holder .modal-content {
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.contact-form-holder .modal-header, .contact-form-holder .modal-footer {
+    border: 0px transparent;
+}
+
+.contact-area .close span{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.contact-area .close {
+    margin-top: -17px;
+    margin-right: -17px;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+
+.contact-area .close span {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    font-size: 36px;
+    line-height: 1.15;
+    display: inline-block;
+}
+
+.contact-form-holder .modal-content {
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.contact-form-holder center {
+    background-color: transparent;
+    position: relative;
+    padding: 0;
+}
+
+.contact-form-holder h4 center {
+    font-weight: 100;
+    line-height: 1;
+}
+
+.contact-form-holder .modal-body button {
+    width: 150px;
+    border-width: 1px;
+}
+
+.contact-form-holder .modal-body .blue-border, contact-form-holder .modal-footer .blue-border {
+    border-width: 1px;
+}
+
+/*=======================================================================
+
+END CONTACT
+
+=======================================================================*/
+
+
+
+
+
+
+/*=======================================================================
+
+RESPONSIVE STYLES
+
+=======================================================================*/
+
+
+@media (min-width: 768px) {
+	
+	.work-together .modal-dialog {
+        width: 800px;
+        margin: 30px auto;
+    }
+	
+}
+
+
+@media (max-width: 768px) {
+	
+	.xs-pull-left {
+	  float: left;
+	}
+	
+	.xs-pull-right {
+	  float: right;
+	}
+	
+}
+
+
+/*=======================================================================
+
+END RESPONSIVE STYLES
+
+=======================================================================*/
+
+
+
+
+
